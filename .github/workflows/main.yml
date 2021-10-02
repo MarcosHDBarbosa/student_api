@@ -17,5 +17,5 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v2
       - name: List all files
-        run: lsa
+        run: ls
 
