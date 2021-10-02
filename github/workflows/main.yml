@@ -8,9 +8,6 @@ jobs:
     
     steps:
       - name: "Say Hello"
-        env:
-          PLANET: Earth
-          NAME: {{ secrets.NAME }}
         run: echo "Hello $NAME from planet $PLANET"
 
   listing:
