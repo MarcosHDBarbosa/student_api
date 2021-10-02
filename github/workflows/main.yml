@@ -10,12 +10,3 @@ jobs:
       - name: "Say Hello"
         run: echo "Hello $NAME from planet $PLANET"
 
-  listing:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v2
-      - name: List all files
-        run: ls
-
