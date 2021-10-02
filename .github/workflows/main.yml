@@ -10,7 +10,7 @@ jobs:
       - name: "Say Hello"
         env:
           PLANET: Earth
-          NAME: {{ secrets.NAME }}
+          NAME: ${{ secrets.NAME }}
         run: echo "Hello $NAME from planet $PLANET"
 
   listing:
